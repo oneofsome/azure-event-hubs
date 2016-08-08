@@ -20,7 +20,7 @@ import org.scalatest.mock.MockitoSugar
 /**
   * Test suite for ReliableEventHubReceiver
   */
-class EventHubsRDDSuite extends FunSuite with BeforeAndAfter with BeforeAndAfterAll
+class EventHubRDDSuite extends FunSuite with BeforeAndAfter with BeforeAndAfterAll
   with MockitoSugar with Eventually {
   private var sc: SparkContext = _
   private var ehClientMock: EventHubInstance = _
